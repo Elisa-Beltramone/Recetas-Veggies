@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas Veggies</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="platosVegetales.css">
+
+</head>
+
+<body>
+    <section>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <a href="index.html">
+                    <h3>Recetas Veggies</h3>
+                </a>
+            </div>
+            <div class="nav-item dropdown">
+                <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <h3 class="menu-text">Libro de recetas</h3>
+                    <span class="dropdown-arrow">▼</span>
+                </a>
+
+                <div class="dropdown-menu">
+                    <li><a class="dropdown-item" href="entradas.html">Entradas</a></li>
+                    <li><a class="dropdown-item" href="platosPrincipales.html">Platos Principales</a></li>
+                    <li><a class="dropdown-item" href="postres.html">Postres</a></li>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section>
+        <h3 class="titulo">¿Qué estas buscando cocinar?</h3>
+        <div class="carousel">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active"><a href="entradas.html">
+                        <img src="Img/hummus.jpg" class="d-block w-100" alt="Entradas">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Entradas</h5>
+                        </div></a>
+                    </div>
+                    <div class="carousel-item"><a href="platosPrincipales.html">
+                        <img src="Img/lasagna.jpeg" class="d-block w-100" alt="Platos principales">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Platos Principales</h5>
+                        </div></a>
+                    </div>
+                    <div class="carousel-item"><a href="postres.html">
+                        <img src="Img/mousseDeChocolate.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Postres</h5>
+                        </div></a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="postres">
+        <h3 class="titulo">Recetas que siempre salen bien</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="tarjetas">
+            <div class="col" id="tarjeta">
+                <div class="card h-100">
+                    <img src="Img/tartademanzana.jpg" class="card-img-top" alt="Tarta de Manzana">
+                    <div class="card-body">
+                        <h5 class="card-title">Tarta de Manzana Vegana</h5>
+                        <p class="card-text">Una tarta clásica de manzana hecha con ingredientes veganos. La masa se
+                            puede preparar sin
+                            mantequilla y el relleno se hace con manzanas, azúcar, y canela. Deliciosa y perfecta para
+                            todas las
+                            estaciones.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="tarjeta">
+                <div class="card h-100">
+                    <img src="Img/brownies.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Brownies de Avocado</h5>
+                        <p class="card-text">Estos brownies son suaves y deliciosos, y el aguacate les agrega una
+                            textura cremosa. Son
+                            veganos y sin gluten.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="tarjeta">
+                <div class="card h-100">
+                    <img src="Img/oatCookies.jpg" class="card-img-top" alt="Galletas de Avena y Plátano">
+                    <div class="card-body">
+                        <h5 class="card-title">Galletas de Avena y Plátano</h5>
+                        <p class="card-text">Estas galletas veganas son rápidas y fáciles de hacer. Solo necesitas
+                            avena, plátanos maduros,
+                            y los ingredientes adicionales que desees, como nueces o pasas. Son una opción saludable
+                            para
+                            satisfacer tu antojo de galletas.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="postres">
+        <h3 class="titulo">Nuevas Recetas</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="tarjetas">
+            <div class="col" id="tarjeta">
+                <div class="card h-100">
+                    <img src="Img/tartademanzana.jpg" class="card-img-top" alt="Tarta de Manzana">
+                    <div class="card-body">
+                        <h5 class="card-title">Tarta de Manzana Vegana</h5>
+                        <p class="card-text">Una tarta clásica de manzana hecha con ingredientes veganos. La masa se
+                            puede preparar sin
+                            mantequilla y el relleno se hace con manzanas, azúcar, y canela. Deliciosa y perfecta para
+                            todas las
+                            estaciones.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="tarjeta">
+                <div class="card h-100">
+                    <img src="Img/brownies.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Brownies de Avocado</h5>
+                        <p class="card-text">Estos brownies son suaves y deliciosos, y el aguacate les agrega una
+                            textura cremosa. Son
+                            veganos y sin gluten.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col" id="tarjeta">
+                <div class="card h-100">
+                    <img src="Img/oatCookies.jpg" class="card-img-top" alt="Galletas de Avena y Plátano">
+                    <div class="card-body">
+                        <h5 class="card-title">Galletas de Avena y Plátano</h5>
+                        <p class="card-text">Estas galletas veganas son rápidas y fáciles de hacer. Solo necesitas
+                            avena, plátanos maduros,
+                            y los ingredientes adicionales que desees, como nueces o pasas. Son una opción saludable
+                            para
+                            satisfacer tu antojo de galletas.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Platos Veggies</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

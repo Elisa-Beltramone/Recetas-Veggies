@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    margin: 0;
+    position: relative;
+    padding: 0;
+}
+
+body::before {
+    content: "";
+    background-image: url(Img/libroRecetas.jpg);
+    opacity: 0.3;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+a {
+    color: rgb(22, 186, 131);
+    text-decoration: none;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(67, 5, 50); /* Reemplaza con el color de fondo deseado */
+    padding: 10px 30px; /* Espaciado interior */
+}
+
+.navbar-brand {
+    flex: 1;
+}
+
+.dropdown {
+    margin-left: 20px; /* Espacio entre "Platos Vegetales" y "Recetas" */
+}
+
+.menu-text {
+    font-size: 24px; /* Tamaño del texto "Recetas" */
+    display: inline; /* Para que estén en la misma línea */
+    margin-right: 5px; /* Espacio entre el texto y la flecha */
+}
+
+.dropdown-arrow {
+    font-size: 18px;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.dropdown-menu {
+    background-color: rgb(62, 115, 115);
+    color: rgb(22, 186, 131);
+    border: 2px solid rgb(38, 2, 27); /* Establece el ancho del borde y el color */
+    border-radius: 10px;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(37, 126, 126);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+.footer-content {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.titulo {
+    font-size: 45px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: rgb(186, 230, 235);
+}
+
+.postres
+{   padding: 2% 15%;
+    color: rgb(186, 230, 235);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item.active {
+    max-width: 700px;
+    max-height: 400px;
+}
+
+.carousel-caption.d-none.d-md-block {
+    color: rgb(2, 20, 22);
+}
+
+
+
